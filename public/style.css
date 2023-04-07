@@ -1,0 +1,44 @@
+header {
+    background-color: darkcyan;
+    color: white; 
+}
+
+nav {
+    display: flex;
+    float: left; 
+    flex-direction: column;
+    width: 20vw; 
+    height: 300px; 
+}
+
+a {
+    background-color: darkcyan;
+    color: white; 
+    text-decoration: none;
+    padding: 5px; 
+    margin: 2px; 
+    font-size: large;
+}
+
+a:hover {
+    background-color: rgb(22, 164, 164);
+}
+
+.wrapper {
+    width: 75vw; 
+    border: 1px solid darkcyan; 
+    float: right; 
+    height: 300px; 
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+footer {
+    background-color: darkcyan;
+    color: white; 
+    width: 100vw; 
+    position: absolute;
+    top: 400px; 
+}
